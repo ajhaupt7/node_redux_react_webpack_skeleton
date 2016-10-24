@@ -1,5 +1,6 @@
 var hapi = require('hapi');
 var pkg = require('./package.json');
+var Spotify = require('machinepack-spotify');
 
 var PORT = process.env.PORT || 8000;
 var server = new hapi.Server();

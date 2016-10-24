@@ -6,8 +6,8 @@ import '../styles/app.scss'
 import { connect } from 'react-redux'
 
 class Root extends Component {
-  constructor(props) {
-    super(props)
+  constructor() {
+    super()
   }
 
   render() {
@@ -17,7 +17,7 @@ class Root extends Component {
         <div id="root" >
           <Router history={history} >
             { routes }
-          </Router>       
+          </Router>      
         </div>
       </Provider>
     )

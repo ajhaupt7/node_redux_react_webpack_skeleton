@@ -5,12 +5,11 @@ import DevTools from './DevTools'
 import { Router } from 'react-router'
 import '../styles/app.scss'
 import { connect } from 'react-redux'
-import { resetState } from '../actions' 
 import Perf from 'react-addons-perf';
 
 class Root extends Component {
-  constructor(props) {
-    super(props)
+  constructor() {
+    super()
   }
 
   componentWillMount() {
